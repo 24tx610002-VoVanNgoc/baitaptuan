@@ -23,7 +23,7 @@ public class HomeControllers extends HttpServlet{
 		
 		// truyền dữ liệu ra cho tham số của views
 		req.setAttribute("name", name);
-		RequestDispatcher rd = req.getRequestDispatcher("/views/home.jsp"); // gọi view home.jsp hiển thị
+		RequestDispatcher rd = req.getRequestDispatcher("/views/web/home.jsp"); // gọi view home.jsp hiển thị
 		rd.forward(req, resp); //chuyển tham số ra home.jsp
 		
 	

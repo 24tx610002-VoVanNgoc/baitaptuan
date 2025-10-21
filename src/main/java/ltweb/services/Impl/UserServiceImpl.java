@@ -1,4 +1,4 @@
-package ltweb.services.Impl;   // nên viết "impl" chữ thường (theo convention)
+package ltweb.services.Impl;   
 
 import ltweb.daos.UserDao;
 import ltweb.daos.impl.UserDaoImpl;

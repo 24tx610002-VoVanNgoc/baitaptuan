@@ -2,18 +2,8 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="core" uri="jakarta.tags.core"%>
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title> 
-</head>
-<body>
 
-
-	${name}
-
-
+<p>Content cua user</p>
 
 	<form action="home" method="POST">
 		<label>Họ tên</label> 
@@ -22,5 +12,4 @@
 		<input type="submit" name="OK">
 	</form>
 	
-</body>
-</html>
+
